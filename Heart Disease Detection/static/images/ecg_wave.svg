@@ -1,0 +1,6 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" preserveAspectRatio="none">
+<style>
+    .ecg-line { fill: none; stroke: #FF4081; stroke-width: 2; opacity: 0.5; }
+</style>
+<polyline class="ecg-line" points="0,50 100,50 120,20 140,80 160,10 180,90 200,50 300,50 320,20 340,80 360,10 380,90 400,50 800,50"/>
+</svg>
