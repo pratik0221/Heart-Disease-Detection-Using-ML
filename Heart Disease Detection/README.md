@@ -4,6 +4,10 @@ An AI-powered web application that predicts heart disease risk using machine lea
 
 ---
 
+## Dataset link 
+
+https://raw.githubusercontent.com/kb22/Heart-Disease-Prediction/master/dataset.csv
+
 ## 🎯 Features
 
 * Machine Learning–based heart disease prediction
@@ -105,4 +109,5 @@ This project is for **educational purposes only** and should not be used for med
 **Pratik Raju Mohite**
 
 * GitHub: [https://github.com/pratik0221](https://github.com/pratik0221)
+
 
