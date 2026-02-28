@@ -1,0 +1,31 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;">
+<style>
+    .body-stroke { fill: none; stroke: #00E5FF; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.6; }
+    .body-fill { fill: #00E5FF; opacity: 0.05; }
+    .joints { fill: #00E5FF; opacity: 0.8; }
+</style>
+<!-- Head -->
+<circle class="body-stroke" cx="256" cy="70" r="40"/>
+<path class="body-fill" d="M256,30c22,0,40,18,40,40s-18,40-40,40s-40-18-40-40S234,30,256,30z"/>
+<!-- Spine/Neck -->
+<line class="body-stroke" x1="256" y1="110" x2="256" y2="150"/>
+<!-- Shoulders -->
+<line class="body-stroke" x1="190" y1="150" x2="322" y2="150"/>
+<!-- Torso Outline -->
+<path class="body-stroke" d="M190,150 L180,280 L220,380 L220,500"/>
+<path class="body-stroke" d="M322,150 L332,280 L292,380 L292,500"/>
+<!-- Ribs -->
+<path class="body-stroke" d="M220,190 Q256,210 292,190"/>
+<path class="body-stroke" d="M220,220 Q256,240 292,220"/>
+<path class="body-stroke" d="M220,250 Q256,270 292,250"/>
+<!-- Arms -->
+<line class="body-stroke" x1="190" y1="150" x2="140" y2="250"/>
+<line class="body-stroke" x1="140" y1="250" x2="120" y2="350"/>
+<line class="body-stroke" x1="322" y1="150" x2="372" y2="250"/>
+<line class="body-stroke" x1="372" y1="250" x2="392" y2="350"/>
+<!-- Joints -->
+<circle class="joints" cx="190" cy="150" r="4"/>
+<circle class="joints" cx="322" cy="150" r="4"/>
+<circle class="joints" cx="140" cy="250" r="4"/>
+<circle class="joints" cx="372" cy="250" r="4"/>
+</svg>

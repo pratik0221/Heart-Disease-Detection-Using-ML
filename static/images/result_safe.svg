@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<style>
+    .safe-heart { fill: #28a745; filter: drop-shadow(0 0 5px #28a745); }
+    .check { fill: none; stroke: white; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+<path class="safe-heart" d="M50,88 C50,88 12,58 12,35 C12,20 25,10 38,10 C46,10 50,16 50,16 C50,16 54,10 62,10 C75,10 88,20 88,35 C88,58 50,88 50,88 Z"/>
+<polyline class="check" points="35,50 45,60 65,35"/>
+</svg>

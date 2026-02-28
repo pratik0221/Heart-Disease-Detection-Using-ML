@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container result-container">
+        <div class="card">
+            <div class="card-header">
+                <h1>Prediction Result</h1>
+            </div>
+
+            {% if error %}
+            <div class="result-box danger">
+                <p>Error: {{ error }}</p>
+            </div>
+            {% else %}
+            <div class="result-box {{ result_class }}">
+                <p>{{ prediction }}</p>
+            </div>
+
+            <p class="probability-text">Probability score: {{ probability }}%</p>
+
+            <p>
+                {% if result_class == 'danger' %}
+                Please consult a cardiologist for further examination.
+                {% else %}
+                Keep up the healthy lifestyle!
+                {% endif %}
+            </p>
+            {% endif %}
+
+            <div style="margin-top: 30px;">
+                <a href="/" class="btn-back">Check Another Patient</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

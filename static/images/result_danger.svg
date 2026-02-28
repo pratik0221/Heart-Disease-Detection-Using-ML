@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<style>
+    .danger-heart { fill: #dc3545; filter: drop-shadow(0 0 8px #dc3545); }
+    .pulse { fill: none; stroke: white; stroke-width: 3; stroke-linecap: round; }
+</style>
+<path class="danger-heart" d="M50,88 C50,88 12,58 12,35 C12,20 25,10 38,10 C46,10 50,16 50,16 C50,16 54,10 62,10 C75,10 88,20 88,35 C88,58 50,88 50,88 Z"/>
+<path class="pulse" d="M25,50 L35,50 L40,35 L50,65 L60,40 L65,50 L75,50"/>
+</svg>
